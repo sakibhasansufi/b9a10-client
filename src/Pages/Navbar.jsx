@@ -147,17 +147,6 @@ const Navbar = () => {
                         </Link>
 
 
-
-                        
-
-
-                        {/* <Link to='/login'>
-                            <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
-                                Sign In
-                            </li>
-                        </Link> */}
-
-
                     </ul>
                 )}
             </div>

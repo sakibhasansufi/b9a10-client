@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import CraftItem from "./CraftItem";
 import { useLoaderData } from "react-router-dom";
+import Contributor from "./Contributor";
 
 const Home = () => {
     const artData = useLoaderData();
@@ -47,6 +48,14 @@ const Home = () => {
                 </div>
 
 
+            </section>
+
+
+
+            {/* contributor page */}
+            <section className="mt-10">
+            <h4 className="text-center mb-8 text-2xl font-bold">Our Top Contributor</h4>
+                    <Contributor></Contributor>
             </section>
         </>
     )

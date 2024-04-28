@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 
 const CraftItem = ({artdata}) => {
-    const {title,image1,image2,image3,description} = artdata;
+    const {id,title,image1,image2,image3,description} = artdata;
 
     return (
 
@@ -42,7 +42,7 @@ const CraftItem = ({artdata}) => {
                 </div>
                 <div className="flex justify-center mt-4">
 
-                    <Link to='/viewDetail'><button className="rounded-full bg-black px-4 py-2 text-sm text-white duration-300 active:scale-95">View Details</button></Link>
+                    <Link to={`/artdata/${id}`}><button className="rounded-full bg-black px-4 py-2 text-sm text-white duration-300 active:scale-95">View Details</button></Link>
                 </div>
             </div>
 

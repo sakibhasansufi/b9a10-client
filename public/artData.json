@@ -5,6 +5,9 @@
         "image1" : "https://cdn.shopify.com/s/files/1/0625/3818/6989/files/1_07e7770a-7a1a-4dfe-83be-b502b2d47d57.jpg?v=1677310581",
         "image2" : "https://img3.exportersindia.com/product_images/bc-full/dir_84/2515748/landscape-painting-1894966.jpg",
         "image3" : "https://www.thoughtco.com/thmb/evhWc3Rg1NUM8a5nYS-dIBGI1pY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/friedrich_shmam_0109_02-56a03a2a3df78cafdaa092dc.jpg",
+        "des1" : "Mountain view canvas",
+        "des2" : "Forest based Landscapepainting",
+        "des3" : "Canvas Art",
 
         "description" : "Landscape painting captures the essence and beauty of nature, translating its vastness, serenity, and ever-changing moods onto the canvas with brushstrokes that evoke a sense of awe and tranquility.",
         "big_Description" : "Landscape paintings capture the essence of natural scenery, portraying a variety of elements such as mountains, valleys, rivers, forests, and skies. These paintings often feature depth achieved through layers of foreground, middle ground, and background elements, creating a sense of perspective and distance.Landforms like mountains, hills, valleys, and coastlines are prominent features in landscape paintings, contributing to the overall composition and sense of scale. Vegetation, including trees, bushes, flowers, and other flora, adds texture and color to the scene, varying in detail to create depth and realism.Bodies of water, such as rivers, lakes, streams, and oceans, are common in landscape paintings. Artists often depict the reflective qualities of water, capturing its movement and transparency to enhance the natural beauty of the scene.",
@@ -13,12 +16,12 @@
         "author1" : "Stuart Benny",
         "author2" : "Becky Lynch",
         "author3" : "Shib Raj Porimondal",
-        "year1" : 2000,
-        "year2" : 1997,
-        "year3" : 2007,
-        "rating1" : "2.3/5",
-        "rating2" : "4/5",
-        "rating3" : "3/5"
+        "price1" : 200,
+        "price2" : 197,
+        "price3" : 207,
+        "process1" : "20 minutes",
+        "process2" : "40 minutes",
+        "process3" : "34 minutes"
      },
      {
         "id" : 2,
@@ -26,6 +29,9 @@
         "image1" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ114uWDTZ9k3QtIJz_wDC-xuLGs9Hb04GEVw&usqp=CAU",
         "image2" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpTA7IWJSMD8h9MLlEP0JBmnoamretNK016Q&usqp=CAU",
         "image3" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1HN806cYvyWUoX0JUn_lm_3uJ4OvomG8LLQ&usqp=CAU",
+        "des1" : "Pencil Sketch Portrait",
+        "des2" : "Ink Outline Portrait",
+        "des3" : "Acrylic Portrait Canvas",
 
         "description" : "Portrait drawing breathes life into the stillness of the canvas, skillfully capturing the unique essence and character of an individual through delicate lines and subtle shading, revealing stories untold yet deeply felt.",
         "big_Description" : "Landscape paintings capture the essence of natural scenery, portraying a variety of elements such as mountains, valleys, rivers, forests, and skies. These paintings often feature depth achieved through layers of foreground, middle ground, and background elements, creating a sense of perspective and distance.Landforms like mountains, hills, valleys, and coastlines are prominent features in landscape paintings, contributing to the overall composition and sense of scale. Vegetation, including trees, bushes, flowers, and other flora, adds texture and color to the scene, varying in detail to create depth and realism.Bodies of water, such as rivers, lakes, streams, and oceans, are common in landscape paintings. Artists often depict the reflective qualities of water, capturing its movement and transparency to enhance the natural beauty of the scene.",
@@ -34,12 +40,12 @@
         "author1" : "Stuart Benny",
         "author2" : "Becky Lynch",
         "author3" : "Shib Raj Porimondal",
-        "year1" : 2000,
-        "year2" : 1997,
-        "year3" : 2007,
-        "rating1" : "2.3/5",
-        "rating2" : "4/5",
-        "rating3" : "3/5"
+        "price1" : 200,
+        "price2" : 197,
+        "price3" : 207,
+        "process1" : "23 minutes",
+        "process2" : "45 minutes",
+        "process3" : "33 minutes"
      },
      {
         "id" : 3,
@@ -47,6 +53,9 @@
         "image1" : "https://i.ytimg.com/vi/Ca5dpw1neW4/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDQoTgTjsNwqjE2rwtZHVBzKMcseA",
         "image2" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1xImp4t3Lur096iowyjA1oRahUIKXM5IpZHSkdeSHQXIFrhnb0Ro2sNc8lHRdiM182Us&usqp=CAU",
         "image3" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8o3cgBp8O_0K4sxAteYnvwJ-8UHC-MkZo-g&usqp=CAU",
+        "des1" : "Floral Watercolor Art",
+        "des2" : "Animal Watercolor Portrait",
+        "des3" : "People Water color portrait",
 
         "description" : "Watercolor painting dances with the fluidity of water, blending vibrant hues seamlessly to create ethereal and translucent compositions that evoke emotions and memories, each brushstroke telling a story of spontaneity and grace",
         "big_Description" : "Landscape paintings capture the essence of natural scenery, portraying a variety of elements such as mountains, valleys, rivers, forests, and skies. These paintings often feature depth achieved through layers of foreground, middle ground, and background elements, creating a sense of perspective and distance.Landforms like mountains, hills, valleys, and coastlines are prominent features in landscape paintings, contributing to the overall composition and sense of scale. Vegetation, including trees, bushes, flowers, and other flora, adds texture and color to the scene, varying in detail to create depth and realism.Bodies of water, such as rivers, lakes, streams, and oceans, are common in landscape paintings. Artists often depict the reflective qualities of water, capturing its movement and transparency to enhance the natural beauty of the scene.",
@@ -55,12 +64,12 @@
         "author1" : "Stuart Benny",
         "author2" : "Becky Lynch",
         "author3" : "Shib Raj Porimondal",
-        "year1" : 2000,
-        "year2" : 1997,
-        "year3" : 2007,
-        "rating1" : "2.3/5",
-        "rating2" : "4/5",
-        "rating3" : "3/5"
+        "price1" : 200,
+        "price2" : 199,
+        "price3" : 207,
+        "process1" : "44 minutes",
+        "process2" : "34 minutes",
+        "process3" : "30 minutes"
      },
      {
         "id" : 4,
@@ -68,6 +77,9 @@
         "image1" : "https://i2.wp.com/zet.gallery/blog/wp-content/uploads/2016/02/Vicent-Van-Gogh-Starry-Night-Famous-Oil-Paintings-www.shairart.com_.jpg?fit=1280%2C1014",
         "image2" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgxw3mpceOgT_sdgLTP73_YWT9JY1at5Y53js5tXLjiw87vs8fgWWFLGaP1mxh6LmDIwY&usqp=CAU",
         "image3" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2lC2mydpfktaGsC2co9PtgU_Xq1sG02xNYg&usqp=CAU",
+        "des1" : "Abstract Oil Painting",
+        "des2" : "Realistic Oil Portrait",
+        "des3" : "Oil Portrait",
 
         "description" : "Oil painting revels in the richness of its medium, layering colors with depth and texture to create timeless masterpieces that capture light and shadow in a symphony of hues, inviting viewers to immerse themselves in a world of vivid beauty and narrative complexity.",
         "big_Description" : "Landscape paintings capture the essence of natural scenery, portraying a variety of elements such as mountains, valleys, rivers, forests, and skies. These paintings often feature depth achieved through layers of foreground, middle ground, and background elements, creating a sense of perspective and distance.Landforms like mountains, hills, valleys, and coastlines are prominent features in landscape paintings, contributing to the overall composition and sense of scale. Vegetation, including trees, bushes, flowers, and other flora, adds texture and color to the scene, varying in detail to create depth and realism.Bodies of water, such as rivers, lakes, streams, and oceans, are common in landscape paintings. Artists often depict the reflective qualities of water, capturing its movement and transparency to enhance the natural beauty of the scene.",
@@ -76,12 +88,12 @@
         "author1" : "Stuart Benny",
         "author2" : "Becky Lynch",
         "author3" : "Shib Raj Porimondal",
-        "year1" : 2000,
-        "year2" : 1997,
-        "year3" : 2007,
-        "rating1" : "2.3/5",
-        "rating2" : "4/5",
-        "rating3" : "3/5"
+        "price1" : 2000,
+        "price2" : 1997,
+        "price3" : 2007,
+        "process1" : "30 minutes",
+        "process2" : "40 minutes",
+        "process3" : "13 minutes"
      },
      {
         "id" : 5,
@@ -89,6 +101,9 @@
         "image1" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtPDUoA35nnEGxTzl8VjTolU52ghbKw-ZTQg&usqp=CAU",
         "image2" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPPkFTNWRATMUQ-B4DPGRQfb12WBZTKgNWcg&usqp=CAU",
         "image3" : "https://www.artistsandillustrators.co.uk/wp-content/uploads/2022/04/how-to-draw-trees-in-charcoal-final.jpg",
+        "des1" : " Figure Charcoal Sketch",
+        "des2" : " Architectural Charcoal Drawing",
+        "des3" : "Charocal Sketch Drawing",
 
         "description" : "Charcoal sketching harnesses the raw essence of darkness and light, using bold strokes and delicate smudges to unveil the soulful depth of subjects, each line expressing emotion and movement with a captivating intensity that transcends mere form.",
         "big_Description" : "Landscape paintings capture the essence of natural scenery, portraying a variety of elements such as mountains, valleys, rivers, forests, and skies. These paintings often feature depth achieved through layers of foreground, middle ground, and background elements, creating a sense of perspective and distance.Landforms like mountains, hills, valleys, and coastlines are prominent features in landscape paintings, contributing to the overall composition and sense of scale. Vegetation, including trees, bushes, flowers, and other flora, adds texture and color to the scene, varying in detail to create depth and realism.Bodies of water, such as rivers, lakes, streams, and oceans, are common in landscape paintings. Artists often depict the reflective qualities of water, capturing its movement and transparency to enhance the natural beauty of the scene.",
@@ -97,12 +112,12 @@
         "author1" : "Stuart Benny",
         "author2" : "Becky Lynch",
         "author3" : "Shib Raj Porimondal",
-        "year1" : 2000,
-        "year2" : 1997,
-        "year3" : 2007,
-        "rating1" : "2.3/5",
-        "rating2" : "4/5",
-        "rating3" : "3/5"
+        "price1" : 2000,
+        "price2" : 1997,
+        "price3" : 2007,
+        "process1" : "30 minutes",
+        "process2" : "40 minutes",
+        "process3" : "30 minutes"
      },
      {
         "id" : 6,
@@ -110,6 +125,9 @@
         "image1" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZtvK7bKF-azkSIlzFGzUktD3FtPfMvQB6TQ&usqp=CAU",
         "image2" : "https://static.wixstatic.com/media/0f4101_874a36996d4e4eaaa3c387360874a08a~mv2.jpg/v1/fill/w_563,h_1020,al_c,q_85,enc_auto/0f4101_874a36996d4e4eaaa3c387360874a08a~mv2.jpg",
         "image3" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8l4FoFZEZaasl1Z8l6jLDoIFxVVqb1NjqmQ&usqp=CAU",
+        "des1" : "Comic Strip Drawing",
+        "des2" : "Anime Drawing",
+        "des3" : "Superhero Cartoon Design",
 
         "description" : "Cartoon drawing whimsically transforms imagination into visual storytelling, where exaggerated features and playful lines bring characters to life in a vibrant world of humor and creativity, sparking joy and laughter with every stroke of the pen.",
         "big_Description" : "Landscape paintings capture the essence of natural scenery, portraying a variety of elements such as mountains, valleys, rivers, forests, and skies. These paintings often feature depth achieved through layers of foreground, middle ground, and background elements, creating a sense of perspective and distance.Landforms like mountains, hills, valleys, and coastlines are prominent features in landscape paintings, contributing to the overall composition and sense of scale. Vegetation, including trees, bushes, flowers, and other flora, adds texture and color to the scene, varying in detail to create depth and realism.Bodies of water, such as rivers, lakes, streams, and oceans, are common in landscape paintings. Artists often depict the reflective qualities of water, capturing its movement and transparency to enhance the natural beauty of the scene.",
@@ -118,12 +136,12 @@
         "author1" : "Stuart Benny",
         "author2" : "Becky Lynch",
         "author3" : "Shib Raj Porimondal",
-        "year1" : 2000,
-        "year2" : 1997,
-        "year3" : 2007,
-        "rating1" : "2.3/5",
-        "rating2" : "4/5",
-        "rating3" : "3/5"
+        "price1" : 2000,
+        "price2" : 1997,
+        "price3" : 2007,
+        "process1" : "2.3minutes",
+        "process2" : "4minutes",
+        "process3" : "3minutes"
      }
 
 ]

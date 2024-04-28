@@ -13,46 +13,132 @@ const ViewDetail = () => {
             <Helmet>
                 <title>Details</title>
             </Helmet>
-            <div className="container px-4 md:px-6">
-                <div className="flex flex-col items-center space-y-4 text-center text-black">
-                    {/* Text content */}
-                    <div className="space-y-2">
-                        <h1 className="text-3xl font-bold tracking-tighter sm:text-lg md:text-xl lg:text-2xl mb-3">
-                            {house.title}
-                        </h1>
-                        <div className="flex justify-center">
-                            <img src={house.image1} alt="" />
+            <h1 className="text-3xl text-center font-bold tracking-tighter sm:text-2xl md:text-4xl lg:text-6xl mb-8">
+                {house.title}
+            </h1>
+            <div>
+                <div className="container px-4 md:px-6">
 
+                    <div className="flex flex-col items-center space-y-4 text-center text-black">
+                    <h2 className="text-center text-xl font-semibold mt-8">{house.des1}</h2>
+                        {/* Text content */}
+                        <div className="space-y-2">
+
+
+                            <div className="flex flex-col md:flex-row  gap-10 justify-center">
+                                <img src={house.image1} className="h-[300px]" alt="" />
+
+                            </div>
+                            <p className="text-left">
+                                {house.big_Description}
+                            </p>
                         </div>
-                        <p className="text-left">
-                            {house.big_Description}
-                        </p>
+
                     </div>
-                    <div className="space-x-4">
-                        <button className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-white shadow transition-colors hover:bg-gray-700 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50" href="#">
-                            Explore Now
-                        </button>
+                </div>
+                {/* Feature Cards */}
+                <div className="container px-4 md:px-6 mt-6 md:mt-16   flex flex-wrap justify-center items-center gap-10">
+                    <div className="flex flex-row gap-3 items-center text-center text-black">
+
+                        <h3 className="text-lg font-semibold">Author:</h3>
+                        <p className="text-sm">{house.author1}</p>
+                    </div>
+                    <div className="flex flex-row gap-2 items-center text-center text-black">
+
+                        <h3 className="text-lg font-semibold">Published Year:$</h3>
+                        <p className="text-sm">{house.price1}</p>
+                    </div>
+                    <div className="flex flex-row gap-3 items-center text-center text-black">
+
+                        <h3 className="text-lg font-semibold">Rating</h3>
+                        <p className="text-sm">{house.process1}</p>
                     </div>
                 </div>
             </div>
-            {/* Feature Cards */}
-            <div className="container px-4 md:px-6 mt-16 flex flex-wrap justify-center items-center gap-9">
-                <div className="flex flex-col items-center text-center text-black">
-                    <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="h-10 w-10 mb-4"><circle cx={12} cy={12} r={10} /><line x1={2} x2={22} y1={12} y2={12} /><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" /></svg>
-                    <h3 className="text-lg font-semibold">Global Reach</h3>
-                    <p className="text-sm">Access content from all around the world.</p>
+
+
+
+            <div>
+                <div className="container px-4 md:px-6">
+                    <div className="flex flex-col items-center space-y-4 text-center text-black">
+                    <h2 className="text-center text-xl font-semibold mt-8">{house.des2}</h2>
+                        {/* Text content */}
+                        <div className="space-y-2">
+
+
+                            <div className="flex flex-col md:flex-row  gap-10 justify-center">
+                                <img src={house.image2} className="h-[300px]" alt="" />
+
+                            </div>
+                            <p className="text-left">
+                                {house.big_Description2}
+                            </p>
+                        </div>
+
+                    </div>
                 </div>
-                <div className="flex flex-col items-center text-center text-black">
-                    <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="h-10 w-10 mb-4"><path d="M6 16.326A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 .5 8.973" /><path d="m13 12-3 5h4l-3 5" /></svg>
-                    <h3 className="text-lg font-semibold">Fast and Efficient</h3>
-                    <p className="text-sm">Experience lightning fast load times.</p>
-                </div>
-                <div className="flex flex-col items-center text-center text-black">
-                    <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="h-10 w-10 mb-4"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" /></svg>
-                    <h3 className="text-lg font-semibold">Loved by Users</h3>
-                    <p className="text-sm">Join our community of happy users.</p>
+                {/* Feature Cards */}
+                <div className="container px-4 md:px-6 mt-6 md:mt-16   flex flex-wrap justify-center items-center gap-10">
+                    <div className="flex flex-row gap-3 items-center text-center text-black">
+
+                        <h3 className="text-lg font-semibold">Author:</h3>
+                        <p className="text-sm">{house.author1}</p>
+                    </div>
+                    <div className="flex flex-row gap-2 items-center text-center text-black">
+
+                        <h3 className="text-lg font-semibold">Published Year:$</h3>
+                        <p className="text-sm">{house.price1}</p>
+                    </div>
+                    <div className="flex flex-row gap-3 items-center text-center text-black">
+
+                        <h3 className="text-lg font-semibold">Rating</h3>
+                        <p className="text-sm">{house.process1}</p>
+                    </div>
                 </div>
             </div>
+
+
+
+
+            <div>
+                <div className="container px-4 md:px-6">
+                    <div className="flex flex-col items-center space-y-4 text-center text-black">
+                    <h2 className="text-center text-xl font-semibold mt-8">{house.des3}</h2>
+                        {/* Text content */}
+                        <div className="space-y-2">
+
+
+                            <div className="flex flex-col md:flex-row  gap-10 justify-center">
+                                <img src={house.image3} className="h-[300px]" alt="" />
+
+                            </div>
+                            <p className="text-left">
+                                {house.big_Description3}
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                {/* Feature Cards */}
+                <div className="container px-4 md:px-6 mt-6 md:mt-16   flex flex-wrap justify-center items-center gap-10">
+                    <div className="flex flex-row gap-3 items-center text-center text-black">
+
+                        <h3 className="text-lg font-semibold">Author:</h3>
+                        <p className="text-sm">{house.author1}</p>
+                    </div>
+                    <div className="flex flex-row gap-2 items-center text-center text-black">
+
+                        <h3 className="text-lg font-semibold">Published Year:$</h3>
+                        <p className="text-sm">{house.price1}</p>
+                    </div>
+                    <div className="flex flex-row gap-3 items-center text-center text-black">
+
+                        <h3 className="text-lg font-semibold">Rating</h3>
+                        <p className="text-sm">{house.process1}</p>
+                    </div>
+                </div>
+            </div>
+
         </section>
 
     );

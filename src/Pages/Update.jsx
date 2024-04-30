@@ -1,7 +1,10 @@
 import { Helmet } from "react-helmet-async";
 import Marquee from "react-fast-marquee";
+import { useLoaderData } from "react-router-dom";
 
 const Update = () => {
+    const arts = useLoaderData();
+    const {image, item, subCategory, description, price, rating, customization, process, stock, email, name} = arts;
     const handleAdd = e => {
         e.preventDefault();
         const form = e.target;
@@ -49,7 +52,7 @@ const Update = () => {
 
                         <div className="space-y-2 text-sm">
                             <label htmlFor="quantity" className="block text-xl font-medium">
-                                Item Name
+                                Item Name: 
                             </label>
                             <input type="text" name="item" placeholder="Item NAme" className="w-52 md:w-64 lg:w-96 px-4 py-3 rounded-md border border-indigo-300 focus:outline-none focus:ring  " />
                         </div>

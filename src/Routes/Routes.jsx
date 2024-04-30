@@ -50,8 +50,9 @@ const routes= createBrowserRouter([
                 loader : () => fetch('http://localhost:5000/art')
             },
             {
-                path : '/update',
-                element : <Update></Update>
+                path : '/update/:id',
+                element : <Update></Update>,
+                loader : ({params}) => fetch(`http://localhost:5000/art/${params.id}`)
             },
             {
                 path : '/subcategory',

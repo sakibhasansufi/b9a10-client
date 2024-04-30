@@ -47,12 +47,12 @@ const routes= createBrowserRouter([
             {
                 path : '/item',
                 element : <MyItem></MyItem>,
-                loader : () => fetch('http://localhost:5000/art')
+                loader : () => fetch('https://coffee-store-server-tau-nine.vercel.app/art')
             },
             {
                 path : '/update/:id',
                 element : <Update></Update>,
-                loader : ({params}) => fetch(`http://localhost:5000/art/${params.id}`)
+                loader : ({params}) => fetch(`https://coffee-store-server-tau-nine.vercel.app/art/${params.id}`)
             },
             {
                 path : '/subcategory',

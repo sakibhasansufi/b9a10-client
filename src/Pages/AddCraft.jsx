@@ -22,7 +22,7 @@ const AddCraft = () => {
 
 
         //send data to the server
-        fetch('http://localhost:5000/art',{
+        fetch('https://coffee-store-server-tau-nine.vercel.app/art',{
             method : 'POST',
             headers : {
                 'content-type' : 'application/json'

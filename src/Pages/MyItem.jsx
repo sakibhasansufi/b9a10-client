@@ -1,9 +1,11 @@
+import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link, useLoaderData } from "react-router-dom";
 import Swal from "sweetalert2";
 
 const MyItem = () => {
-    const arts = useLoaderData();
+    const loadedArts = useLoaderData();
+    const [arts,setArts] = useState(loadedArts);
     // const {image, item, subCategory, description, price, rating, customization, process, stock, email, name} = arts;
     const handleDelete = _id => {
         console.log(_id);
@@ -19,7 +21,7 @@ const MyItem = () => {
             confirmButtonText: "Yes, delete it!"
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/art/${_id}`,{
+                fetch(`https://coffee-store-server-tau-nine.vercel.app/art/${_id}`,{
                     method : "DELETE"
                 })
                     .then(res => res.json())
@@ -32,6 +34,8 @@ const MyItem = () => {
                                 icon: "success"
 
                             });
+                            const remaining = arts.filter(cof=>cof._id!==_id);
+                            setArts(remaining)
                         }
                     })
             }

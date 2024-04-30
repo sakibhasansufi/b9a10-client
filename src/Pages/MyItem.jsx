@@ -66,6 +66,8 @@ const MyItem = () => {
                                 <Link to={`/update/${art._id}`}><button className="btn btn-primary">Update</button></Link>
                                 <button onClick={() => handleDelete(art._id)} className="btn btn-error">Delete</button>
                             </div>
+
+                            
                         </div>
                     </div>
 

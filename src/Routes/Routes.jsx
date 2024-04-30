@@ -9,6 +9,8 @@ import AddCraft from "../Pages/AddCraft";
 import AllCrafts from "../Pages/AllCrafts";
 import MyItem from "../Pages/MyItem";
 import PrivateRoute from "./PrivateRoutes";
+import Update from "../Pages/Update";
+import Subcategory from "../Pages/Subcategory";
 
 const routes= createBrowserRouter([
     {
@@ -44,7 +46,16 @@ const routes= createBrowserRouter([
             },
             {
                 path : '/item',
-                element : <MyItem></MyItem>
+                element : <MyItem></MyItem>,
+                loader : () => fetch('http://localhost:5000/art')
+            },
+            {
+                path : '/update',
+                element : <Update></Update>
+            },
+            {
+                path : '/subcategory',
+                element : <Subcategory></Subcategory>
             }
         ]
     }

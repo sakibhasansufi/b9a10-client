@@ -1,6 +1,6 @@
 # Welcome to Lizer
 
-**Lizer** is an arts and craft. Hers users can see the available arts and craft and their details. They can also add their crat item here and see their added item in the my list page.
+**Lizer** is an arts and craft. Hers users can see the available arts and craft and their details. They can also add their crft item here and see their added items in the my list page.
 
 **Features of the websote**
 - Show the details of arts and craft
